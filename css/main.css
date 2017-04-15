@@ -1,0 +1,81 @@
+  html{
+    font-size: 16px;
+  }
+
+  body{
+    /*background-color: #eee;*/
+  }
+
+
+
+/*====== HEADER ======*/
+
+  .header{
+    position: fixed;
+    background-color: #0b405a;
+    width: 100%;
+    height: 5rem;
+  }
+
+  .searchbar{
+    position: absolute;
+    display: inline-block;
+    margin-right: -8.5rem;
+    color: #fff;
+    right: 50%;
+    top: 35%;
+  }
+
+  input[type=search] {
+    border: 2px solid #555;
+    width: 17rem;
+
+    -webkit-appearance: none;
+  }
+/*====== HEADER ======*/
+
+
+
+/*====== WELCOME-SECTION ======*/
+
+  .jumbotron{
+    padding-top: 8rem;
+  }
+
+  .welcome-post{
+    background-color: #ccc;
+  }
+
+/*====== WELCOME-SECTION ======*/
+
+@media (min-width: 768px) {
+  .container-goldratio {
+    height: 460px;
+  }
+}
+@media (min-width: 992px) {
+  .container-goldratio {
+    height: 596px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-goldratio {
+    height: 718.6px;
+  }
+}
+
+/*@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}*/
